@@ -3,10 +3,12 @@
 В качестве обучающей выборки будем использовать часть датасета Flickr Faces, который содержит изображения лиц людей в высоком разрешении (1024х1024). Оригинальный датасет очень большой, поэтому мы возьмем его часть. 
 
 Пример картинки из датасета
-![Dataset example]()
+
+![Dataset example](https://github.com/kkruglik/GANs/blob/main/imgs/gan_example.png)
 
 Пример сгенерированных лиц
-![GAN image example]()
+
+![GAN image example](https://github.com/kkruglik/GANs/blob/main/imgs/gan_example_2.png)
 
 В качестве метрики оценки работы GAN будем использовать Leave-one-out-1-NN accuracy:
 
@@ -18,4 +20,4 @@
 
 Давайте посмотрим на то, насколько похожи распределения настоящих и фейковых изображений. Для этого воспользуйтесь методом, снижающим размерность (к примеру, TSNE) и изобразите на графике разным цветом точки, соответствующие реальным и сгенерированным изображенияи
 
-![Latent Representation of faces]()
+![Latent Representation of faces](https://github.com/kkruglik/GANs/blob/main/imgs/gan_latent.png)

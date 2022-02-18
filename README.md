@@ -10,7 +10,8 @@
 
 Пример сгенерированных лиц
 
-![GAN image example](https://github.com/kkruglik/GANs/blob/main/imgs/gan_example_2.png
+![GAN image example](https://github.com/kkruglik/GANs/blob/main/imgs/gan_example_2.png)
+
 
 **Leave-one-out-1-NN classifier accuracy**
 
@@ -21,6 +22,7 @@
 * Построить leave-one-out оценку: обучить 1NN Classifier (`sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)`) предсказывать класс на всех объектах, кроме одного, проверить качество (accuracy) на оставшемся объекте. 
 
 Итоговое `accuracy` составило: 0.793. То есть Knn достаточно хорошо отличает сгенерированные изображения от настоящих. Выходит, что GAN создаёт не очень похожие на настоящие лица изображения. 
+
 
 **Визуализация распределений**
 
